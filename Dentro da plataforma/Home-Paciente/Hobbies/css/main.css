@@ -1,0 +1,1180 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&display=swap');
+
+* {
+	margin: 0;
+
+	padding: 0;
+
+  font-family: 'Noto Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  scroll-behavior: smooth;
+
+}
+
+nav {
+
+	background-color: #ffffff;
+  
+	display: flex;
+  
+	align-items: center;
+  
+	justify-content: space-between;
+  
+	border-bottom: solid #c9aede 2.5px;
+  
+  }
+  
+  .logo {
+  
+	display: flex;
+  
+	align-items: flex-end;
+  
+	margin-left: 20px;
+  
+  
+  }
+  
+  .logo img {
+  
+	height: 80px;
+  
+	width: 80px;
+  
+  }
+  
+  .site-info {
+  
+	margin-left: -10px;
+  
+	margin-bottom: 8px;
+  
+  }
+  
+  .nav_name {
+  
+	text-align: center;
+  
+	font-size: 30px;
+  
+	font-family: 'Noto serif', 'Times New Roman', Times, serif
+  
+  }
+  
+  .nav-links {
+  
+	list-style: none;
+  
+	display: flex;
+  
+	margin: 0;
+  
+	padding: 0;
+  
+  }
+  
+  .nav-links li {
+  
+	margin-right: 10px;
+  
+	font-size: 17px;
+  
+  }
+  
+  .nav-links li a {
+  
+	text-decoration: none;
+  
+	color: #333;
+  
+	margin-left: 50px;
+  
+	margin-right: 50px;
+  
+  }
+  
+  .nav-links li a:hover {
+  
+	color: #9e80ce83;
+  
+  }
+  
+  .highlight {
+  
+	background-color: #F8D9F1;
+  
+	border-top-left-radius: 30px;
+  
+	border-top-right-radius: 30px;
+  
+	border-bottom-left-radius: 30px;
+  
+	border-bottom-right-radius: 30px;
+  
+	transition: all 0.05s linear;
+  
+  }
+  
+  .highlight a {
+  
+	color: #fff;
+  
+	font-weight: bold;
+  
+  }
+  
+  .highlight:hover {
+  
+	border: solid #66478A;
+  
+  }
+
+.main {
+  width: 100%;
+  height: 3390px;
+  background: url("../images/v46_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+.v35_119 {
+  width: 100%;
+  height: 3510px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v35_120 {
+  width: 100%;
+  height: 82px;
+  background: rgba(217,217,217,0);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.retangulos{
+position: absolute;
+width: 100%;
+height: 100%;
+top: -185px;
+display: flex;
+justify-content: center; /* Centraliza horizontalmente */
+align-items: center; /* Centraliza verticalmente */
+
+}
+
+
+.hobbies {
+  width: 100%;
+  height: 268px;
+  background: url("../images/v35_121.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 160px;
+  overflow: hidden;
+}
+.title {
+  color: rgba(102, 71, 138, 0.65);
+  font-weight: Regular;
+  font-size: 60px;
+  text-align: center;
+  top: 100px;
+  margin: 0 auto;
+  position: absolute;
+  top:48px;
+  left:500px;
+
+}
+.text1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: rgba(0,0,0,0.6499999761581421);
+  z-index: 4; /* ele fica na frente de todos os elementos que tem index menor que 4, o padrão é 0*/
+  font-weight: Regular;
+  font-size: 35px;
+  text-align: center;
+  position: absolute;
+  top:147px;
+  left:auto;
+}
+.text2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: rgba(0,0,0,0.6499999761581421);
+  z-index: 4; /* ele fica na frente de todos os elementos que tem index menor que 4, o padrão é 0*/
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  top:240px;
+  left: 50px;
+}
+.musicas {
+  width: 100%;
+  height: 601px;
+  background: url("../images/v35_125.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 497px;
+  left: 0px;
+  overflow: hidden;
+}
+.containermusic {
+  width: 1250px;
+  height: 400px;
+  background: rgba(243, 206, 218, 1);
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titlemusic {
+  width: 281px;
+  color: rgba(102,71,138,0.6499999761581421);
+  left: 117px;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+  margin: 0 auto;
+}
+.textmusic {
+  width: 779px;
+  color: rgba(0,0,0,0.6499999761581421);
+  top: 159px;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.musicamolduras {
+  width: 100%;
+  height: 257px;
+  background: url("../images/v35_129.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 125px;
+  left: 57px;
+  overflow: hidden;
+}
+
+.CaixaMusic1 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/pexels-andrea-piacquadio-3765147.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 6px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.CaixaMusic2 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/pexels-cottonbro-studio-6700119.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 310px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.CaixaMusic3 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/pexels-olena-bohovyk-3819968.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.CaixaMusic4 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/pexels-tirachard-kumtanom-1001850.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 900px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.meditacao {
+  width: 100%;
+  height: 601px;
+  background: url("../images/v35_134.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1000px;
+  left: 0px;
+  overflow: hidden;
+}
+.containermeditacao {
+  width: 1250px;
+  height: 400px;
+  background: rgba(211,201,222,1);
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titlemeditacao {
+  width: 281px;
+  color: rgba(102,71,138,0.6499999761581421);
+  left: 117px;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+  margin: 0 auto;
+}
+.textmeditacao {
+  width: 779px;
+  color: rgba(0,0,0,0.6499999761581421);
+  top: 159px;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.meditacaomolduras {
+  width: 100%;
+  height: 257px;
+  background: url("../images/v35_129.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 125px;
+  left: 57px;
+  overflow: hidden;
+}
+
+.CaixaMed1 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/med1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 6px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.CaixaMed2 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/med2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 310px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.CaixaMed3 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/med3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.CaixaMed4 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/med4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 900px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.respiracao {
+  width: 100%;
+  height: 601px;
+  background: url("../images/v35_143.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1500px;
+  left: 0px;
+  overflow: hidden;
+}
+.containerrespi {
+  width: 1250px;
+  height: 400px;
+  background: rgba(243, 206, 218, 1);
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titlerespiracao {
+  width: 281px;
+  color: rgba(102,71,138,0.6499999761581421);
+  left: 117px;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+  margin: 0 auto;
+}
+.textrespi {
+  width: 779px;
+  color: rgba(0,0,0,0.6499999761581421);
+  top: 159px;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.respiracaomolduras {
+  width: 100%;
+  height: 257px;
+  background: url("../images/v35_129.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 125px;
+  left: 57px;
+  overflow: hidden;
+}
+
+.CaixaRespi1 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/Res1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 6px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.CaixaRespi2 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/Res2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 310px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.CaixaRespi3 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/Res3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.CaixaRespi4 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/Res4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 900px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.dance {
+  width: 100%;
+  height: 601px;
+  background: url("../images/v35_152.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2000px;
+  left: 0px;
+  overflow: hidden;
+}
+.containerdance {
+  width: 1250px;
+  height: 400px;
+  background: rgba(211,201,222,1);
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titledance {
+  width: 281px;
+  color: rgba(102,71,138,0.6499999761581421);
+  left: 117px;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+  margin: 0 auto;
+}
+.textdance {
+  width: 779px;
+  color: rgba(0,0,0,0.6499999761581421);
+  top: 159px;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.dancemolduras {
+  width: 100%;
+  height: 257px;
+  background: url("../images/v35_129.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 125px;
+  left: 57px;
+  overflow: hidden;
+}
+
+.Caixadance1 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/Dan1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 6px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.Caixadance2 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/Dan2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 310px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.Caixadance3 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/Dan3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.Caixadance4 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/Dan4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 900px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.desenho {
+  width: 100%;
+  height: 601px;
+  background: url("../images/v35_161.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2500px;
+  left: 0px;
+  overflow: hidden;
+}
+.containerdesenho {
+  width: 1250px;
+  height: 400px;
+  background: rgba(243, 206, 218, 1);
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titledesenho {
+  width: 281px;
+  color: rgba(102,71,138,0.6499999761581421);
+  left: 117px;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+  margin: 0 auto;
+}
+.textdesenho {
+  width: 779px;
+  color: rgba(0,0,0,0.6499999761581421);
+  top: 159px;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.desenhomolduras {
+  width: 100%;
+  height: 257px;
+  background: url("../images/v35_129.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 125px;
+  left: 57px;
+  overflow: hidden;
+}
+
+.Caixadesenho1 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/Des1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 6px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.Caixadesenho2 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/Des2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 310px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.Caixadesenho3 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/Des3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.Caixadesenho4 {
+  width: 230px;
+  height: 220px;
+  background: url("../images/Des4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 900px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+
+.contribuicao {
+  width: 100%;
+  height: 520px;
+  background: url("../images/v35_170.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2986px;
+  left: 55px;
+  overflow: hidden;
+}
+.caixadetexto {
+  width: 500px;
+  height: 350px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.labelt{
+	background-color:rgba(255, 255, 255, 1);
+	position: absolute;
+	font-size: 20px;
+  width: 428px;
+  height: 297px;
+	left: 132px;
+	top: 55px;
+	border-radius: 5px;
+
+}
+.textofinal {
+  width: 542px;
+  color: rgba(0,0,0,0.6499999761581421);
+  position: absolute;
+  top: 54px;
+  left: 650px;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.botaoenviar {
+  width: 546px;
+  height: 110px;
+  background: url("../images/v35_174.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 410px;
+  left: 777px;
+  overflow: hidden;
+}
+.botao {
+  width: 200px;
+  height: 70px;
+  background: rgba(102,71,138,1);
+  opacity: 1;
+  position: absolute;
+  top: 285px;
+  left: 648px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  z-index: 4;
+  cursor: pointer;
+  transition: 0.30s;
+}
+
+.botao:hover {
+  background-color: #c9aede;
+}
+
+.botao:active {
+  transform: scale(0.90);
+}
+
+.v35_176 {
+  width: 94px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 13px;
+  left: 53px;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v94_29 {
+  width: 100%;
+  height: 197px;
+  background: url("../images/v94_29.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 115px;
+  left: 30px;
+  overflow: hidden;
+}
+.v94_30 {
+  width: 100%;
+  height: 94px;
+  background: rgba(208,173,235,0);
+  opacity: 1;
+  position: absolute;
+  top: 103px;
+  left: 0px;
+  border: 5px solid rgba(156,117,169,0.5);
+  overflow: hidden;
+}
+.v94_31 {
+  width: 310px;
+  height: 28px;
+  background: url("../images/v94_31.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 142px;
+  left: 234px;
+  overflow: hidden;
+}
+.v94_32 {
+  width: 53px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v94_33 {
+  width: 51px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1px;
+  left: 118px;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v94_35 {
+  width: 76px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 234px;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v94_36 {
+  width: 211px;
+  height: 37px;
+  background: url("../images/v94_36.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 137px;
+  left: 604px;
+  overflow: hidden;
+}
+.v94_37 {
+  width: 211px;
+  height: 36px;
+  background: rgba(248,217,241,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 4px solid rgba(102,71,138,1);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+}
+.v94_38 {
+  width: 175px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3px;
+  left: 18px;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v94_39 {
+  width: 180px;
+  height: 166px;
+  background: rgba(162,119,164,0.5199999809265137);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 87px;
+  border-radius: 50%;
+}
+.v94_40 {
+  width: 83px;
+  height: 70px;
+  background: url("../images/v94_40.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 122px;
+  left: 77px;
+  overflow: hidden;
+}
+.v94_41 {
+  width: 93px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 126px;
+  left: 160px;
+  font-weight: Display Light;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
+.labelcaixa { 
+	font-size: 20px;
+    width: 200px;
+    height: 50px;
+}
